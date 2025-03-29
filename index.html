@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product page - Plants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400..700&display=swap"
+    rel="stylesheet" />
+  <script defer src="https://kit.fontawesome.com/f40fd5b04a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="main-header" id="header">
+    <div class="container">
+      <a href="#home" class="nav-link nav-link"><img src="./src/logo.png" alt="Plants Logo" id="header-img" /></a>
+
+      <nav class="header_nav-bar" id="nav-bar">
+        <a href="#home" class="nav-link nav-link_active">Home</a>
+        <a href="#about_us" class="nav-link">About us</a>
+        <a href="#service" class="nav-link">Service</a>
+        <a href="#price" class="nav-link">Price</a>
+        <a href="#contacts" class="nav-link">Contacts</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="section section-home" id="home">
+      <div class="container">
+        <div class="section__block-media">
+          <iframe id="video" src="https://www.youtube.com/embed/a8iYp3zgUpg?si=p4MJkIAaDlb9_VVt"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="section__block-content">
+          <p class="section-title">
+            We grow <span class="highlight-green">plants</span> and give you
+            oxygen
+          </p>
+          <p class="regular-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s.
+          </p>
+          <a href="#" class="learn-more btn btn-outline">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-about-us" id="about_us">
+      <div class="container">
+        <div class="section__block-content">
+          <h2 class="section-subtitle">
+            We are
+            <span class="highlight-orange">professional experienced</span>
+            gardeners
+          </h2>
+          <p class="regular-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+            maiores aliquam, voluptates sed magnam, vitae libero odio et,
+            reiciendis tempore nihil! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ea dignissimos veritatis porro odio quia quasi
+            unde velit corporis? Ex dolores quaerat praesentium quos aspernatur
+            maiores quisquam, incidunt necessitatibus fugiat.
+          </p>
+        </div>
+        <div class="section__block-media">
+          <img src="./src/houseplant-1.png" alt="House plant" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-service" id="service">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-subtitle">Service and our projects</h2>
+          <div class="section-buttons">
+            <a href="#" class="btn btn-outline">Gardens</a>
+            <a href="#" class="btn btn-outline">Lawn</a>
+            <a href="#" class="btn btn-outline">Planting</a>
+          </div>
+        </header>
+        <div class="service-cards_block">
+          <ul class="cards-list">
+            <li class="card">
+              <img src="./src/service-cards/01-garden.jpg" alt="" />
+              <h3>Garden care</h3>
+              <p class="regular-text">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+            </li>
+            <li class="card">
+              <img src="./src/service-cards/02-garden.jpg" alt="" />
+              <h3>Planting</h3>
+              <p class="regular-text">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+            </li>
+            <li class="card">
+              <img src="./src/service-cards/03-garden.jpg" alt="" />
+              <h3>Lawn care</h3>
+              <p class="regular-text">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+            </li>
+            <li class="card">
+              <img src="./src/service-cards/04-garden.jpg" alt="" />
+              <h3>Planting</h3>
+              <p class="regular-text">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+            </li>
+            <li class="card">
+              <img src="./src/service-cards/05-garden.jpg" alt="" />
+              <h3>Garden care</h3>
+              <p class="regular-text">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+            </li>
+            <li class="card">
+              <img src="./src/service-cards/06-garden.jpg" alt="" />
+              <h3>Planting</h3>
+              <p class="regular-text">
+                Lorem ipsum dolor sit amet consectetur.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-price" id="price">
+      <div class="container">
+        <div class="section-flex">
+          <h2 class="section-title">Price</h2>
+          <div class="price-list_block">
+            <ul class="price-list">
+              <li class="price-list_item">
+                <details class="price-item_detail">
+                  <summary class="price-item_summary">Basics</summary>
+                  <p>Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <span class="price"><span class="price-amount">$15</span> / per hour</span>
+                  <button class="btn btn-fill btn-order">Order</button>
+                </details>
+              </li>
+              <li class="price-list_item">
+                <details class="price-item_detail">
+                  <summary class="price-item_summary">Standard</summary>
+                  <p>Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <span class="price"><span class="price-amount">$25</span> / per hour</span>
+                  <button class="btn btn-fill btn-order">Order</button>
+                </details>
+              </li>
+              <li class="price-list_item">
+                <details class="price-item_detail">
+                  <summary class="price-item_summary">Pro care</summary>
+                  <p>Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <span class="price"><span class="price-amount">$35</span> / per hour</span>
+                  <button class="btn btn-fill btn-order">Order</button>
+                </details>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-flex">
+          <!-- it's not a semantic title  -->
+          <p class="section-title">Our best <span class="highlight-green">gardeners</span> are ready to help you</p>
+          <form class="subscription-form" action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" name="email" id="email" placeholder="Your email here ...">
+            <button type="submit" class="contact-us btn btn-outline">Subscription</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contacts" id="contacts">
+      <div class="container">
+        <h2 class="section-subtitle">Contacts</h2>
+        <div class="block-table">
+          <table class="contacts-address">
+            <tbody>
+              <tr>
+                <th>City:</th>
+                <td>New York City</td>
+              </tr>
+              <tr>
+                <th>Phone:</th>
+                <td> <a href="tel:+12124560002"> +1 212 456 0002</a></td>
+              </tr>
+              <tr>
+                <th>Office adress:</th>
+                <td>
+                  <address>9 East 91st Street</address>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="btn btn-outline btn-call-us">Call us</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="container">
+      <p>© 2024 <a href="https://github.com/helen25sur">github: helen25sur</a></p>
+      <p><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></p>
+      <ul class="footer-social-list">
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

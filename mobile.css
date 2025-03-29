@@ -1,0 +1,70 @@
+/* ==================== MEDIA QUERIES =========== */
+/* ================================================= */
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 1.6rem auto;
+    padding: 0 1.6rem;
+    flex-wrap: wrap;
+  }
+
+  /* ================== HEADER ================= */
+
+  .main-header {
+    padding: 35px 20px;
+  }
+
+  /* ======================= MAIN ========================= */
+
+  .section-subtitle {
+    font-size: 3.5rem;
+  }
+
+  /* ======================= HOME ========================= */
+
+  .section-home {
+    padding: 4rem 0;
+  }
+
+  .section__block-media {
+    width: 85%;
+    margin: 0 auto;
+    height: 400px;
+  }
+
+  .section__block-content {
+    margin: 0 auto;
+  }
+
+  /* ================= ABOUT US =============== */
+
+  .section-about-us img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* ================= SERVICES ==================== */
+
+  .section-header {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .section-header .section-subtitle,
+  .section-buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cards-list {
+    gap: 3.8rem 6rem;
+    padding: 0 3.2rem;
+  }
+
+  /* ========================= FOOTER ================ */
+
+  .main-footer>.container {
+    padding: 4rem 2rem;
+  }
+}
