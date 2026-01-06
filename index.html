@@ -11,20 +11,34 @@
     rel="stylesheet" />
   <script defer src="https://kit.fontawesome.com/f40fd5b04a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css" />
+  <script src="./src/scripts/index.js" defer></script>
 </head>
 
 <body>
   <header class="main-header" id="header">
     <div class="container">
-      <a href="#home" class="nav-link nav-link"><img src="./src/logo.png" alt="Plants Logo" id="header-img" /></a>
+      <a href="#home" class="nav-link logo-link"><img src="./src/logo.png" alt="Plants Logo" id="header-img" /></a>
 
-      <nav class="header_nav-bar" id="nav-bar">
+      <nav class="header_nav-bar header_nav-bar_desktop" id="nav-bar">
         <a href="#home" class="nav-link nav-link_active">Home</a>
         <a href="#about_us" class="nav-link">About us</a>
         <a href="#service" class="nav-link">Service</a>
         <a href="#price" class="nav-link">Price</a>
         <a href="#contacts" class="nav-link">Contacts</a>
       </nav>
+
+      <nav class="header_nav-bar header_nav-bar_mobile closed" id="nav-bar">
+        <a href="#home" class="nav-link nav-link_active">Home</a>
+        <a href="#about_us" class="nav-link">About us</a>
+        <a href="#service" class="nav-link">Service</a>
+        <a href="#price" class="nav-link">Price</a>
+        <a href="#contacts" class="nav-link">Contacts</a>
+      </nav>
+      <button id="burger-menu" class="burger-menu btn btn-outline"> Menu
+        <span class="burger-menu-item"></span>
+        <span class="burger-menu-item"></span>
+        <span class="burger-menu-item"></span>
+      </button>
     </div>
   </header>
   <main>
